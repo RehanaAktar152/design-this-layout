@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Design this layout</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Poppins', Segoe UI, Arial, Helvetica, sans-serif;
+                /* border: 0.5px dotted grey; */
+            }
+
+            li {
+                cursor: pointer;
+            }
+
+            nav {
+                position: sticky;
+                top: 0;
+                background-color: #593731;
+                color: #f8f6f7;
+                font-weight: 500;
+                font-size: 20px;
+                z-index: 1;
+            }
+
+            nav ul li {
+                display: inline-block;
+                padding: 20px;
+                margin: 0 0 0 40px;
+            }
+
+            .container {
+                height: 110vh;
+            }
+
+            .section-container {
+                height: 60vh;
+                background-color: #c9c59c;
+                z-index: 0;
+            }
+
+            .section-container section {
+                height: 300px;
+                width: 300px;
+                position: absolute;
+                margin-top: 25px;
+                border-radius: 10px;
+            }
+
+            .box-1 {
+                background-color: #8f9b55;
+                left: 20vw;
+            }
+
+            .box-2 {
+                background-color: #dd4433;
+                right: 20vw;
+            }
+
+            .message-rounded {
+                background-color: #e4de59;
+                width: 70vw;
+                height: 100px;
+                margin: 30px auto;
+                border-radius: 15px;
+                font-size: 25px;
+                text-align: center;
+                padding: 30px 0;
+            }
+
+            .container .image {
+                height: 30px;
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+            }
+
+            footer {
+                background-color: #0e0302;
+                height: 45vh;
+                color: #f8f6f7;
+                font-size: 14px;
+            }
+
+            .footer-container ul {
+                display: inline-block;
+                list-style: none;
+                padding: 30px 90px;
+            }
+
+            .footer-container ul li {
+                padding: 3px 0;
+            }
+
+            .footer-container p {
+                font-size: 12px;
+                text-align: center;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact US</li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="section-container">
+                <section class="box-1"></section>
+                <section class="box-2"></section>
+            </div>
+            <div class="message-rounded">Sigma batch is going OP</div>
+            <img
+                class="image"
+                src="https://api.iconify.design/flat-color-icons:google.svg"
+                alt=""
+            />
+        </div>
+        <footer>
+            <div class="footer-container">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact US</li>
+                    <li>lorem</li>
+                    <li>ipsum</li>
+                    <li>dolor</li>
+                </ul>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact US</li>
+                    <li>lorem</li>
+                    <li>ipsum</li>
+                    <li>dolor</li>
+                </ul>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact US</li>
+                    <li>lorem</li>
+                    <li>ipsum</li>
+                    <li>dolor</li>
+                </ul>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact US</li>
+                    <li>lorem</li>
+                    <li>ipsum</li>
+                    <li>dolor</li>
+                </ul>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact US</li>
+                    <li>lorem</li>
+                    <li>ipsum</li>
+                    <li>dolor</li>
+                </ul>
+                <p>&copy; Design This Layout | All rights reserved</p>
+            </div>
+        </footer>
+    </body>
+</html>
